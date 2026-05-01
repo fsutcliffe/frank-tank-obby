@@ -1,0 +1,70 @@
+{
+  "ClassName": "Folder",
+  "Children": [
+    {
+      "Name": "JumpPlatform1",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [8, 1, 4],
+        "CFrame": [-44, 3, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [0, 0.8, 1],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": []
+    },
+    {
+      "Name": "JumpPlatform2",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [6, 1, 4],
+        "CFrame": [-34, 6, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [0, 0.8, 1],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": []
+    },
+    {
+      "Name": "JumpPlatform3",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [5, 1, 4],
+        "CFrame": [-24, 9, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [0, 0.8, 1],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": []
+    },
+    {
+      "Name": "JumpPlatform4",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [4, 1, 4],
+        "CFrame": [-14, 12, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [0, 0.8, 1],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": []
+    },
+    {
+      "Name": "JumpPlatform5",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [3, 1, 4],
+        "CFrame": [-4, 15, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [0, 0.8, 1],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "ClassName": "BillboardGui",
+  "Children": [
+    {
+      "Name": "Title",
+      "ClassName": "TextLabel",
+      "Properties": {
+        "BackgroundTransparency": 1,
+        "Text": "FRANK THE TANK",
+        "TextColor3": [1, 0.843, 0],
+        "TextScaled": true,
+        "Font": "GothamBold",
+        "TextStrokeTransparency": 0.3,
+        "TextStrokeColor3": [0, 0, 0]
+      },
+      "Children": []
+    },
+    {
+      "Name": "Subtitle",
+      "ClassName": "TextLabel",
+      "Properties": {
+        "BackgroundTransparency": 1,
+        "Text": "OBBY CHAMPION",
+        "TextColor3": [0, 0.8, 1],
+        "TextScaled": true,
+        "Font": "Gotham",
+        "TextStrokeTransparency": 0.5
+      },
+      "Children": []
+    }
+  ]
+}

@@ -25,7 +25,6 @@ local playerDataMap: { [Player]: PlayerData } = {}
 local checkpointParts: { Part } = {}
 local finishPart: Part? = nil
 local fallThreshold: number = -10
-local movePlatformsFn: ((dt: number) -> ())? = nil
 
 -- ── Timer BillboardGui ──────────────────────────────────────────────────────
 
@@ -279,7 +278,7 @@ local function onPlayerFinish(player: Player, data: PlayerData)
 	end
 
 	-- Spawn celebration fireworks
-	local finishPos = Vector3.new(70, 29, 0)
+	local finishPos = Vector3.new(90, 29, 0)
 	spawnFireworks(finishPos)
 
 	-- Respawn player at start for another go
@@ -346,66 +345,15 @@ local function setupTouchConnections()
 	end
 end
 
--- ── Crumbling platforms ─────────────────────────────────────────────────────
-
-local function setupCrumblingPlatforms()
-	local obbyFolder = Workspace:FindFirstChild("ObbyCourse")
-	if not obbyFolder then
-		return
-	end
-
-	local obstacles = obbyFolder:FindFirstChild("Obstacles")
-	if not obstacles then
-		return
-	end
-
-	for _, child in obstacles:GetChildren() do
-		if child:IsA("Part") and string.find(child.Name, "CrumblingPlatform_") then
-			local platform = child :: Part
-			platform.Touched:Connect(function(hit: BasePart)
-				local player = Players:GetPlayerFromCharacter(hit.Parent)
-				if not player then
-					return
-				end
-
-				-- Only crumble once
-				if platform.Anchored == false then
-					return
-				end
-
-				-- Start crumble timer
-				task.delay(2, function()
-					if platform and platform.Parent then
-						platform.Anchored = false
-						-- Enable physics
-						platform:BreakJoints()
-
-						-- Destroy after falling
-						task.delay(3, function()
-							if platform and platform.Parent then
-								platform:Destroy()
-							end
-						end)
-					end
-				end)
-			end)
-		end
-	end
-end
-
 -- ── Main entry point ────────────────────────────────────────────────────────
 
-function ObbyGameLogic.setup(moveFn: ((dt: number) -> ())?)
+function ObbyGameLogic.setup()
 	-- Find all game elements
 	findCheckpoints()
 	finishPart = findFinishPart()
 
-	-- Store moving platforms function
-	movePlatformsFn = moveFn
-
 	-- Setup player connections
 	setupTouchConnections()
-	setupCrumblingPlatforms()
 	setupFallDetection()
 
 	-- Handle new players
@@ -444,13 +392,5 @@ function ObbyGameLogic.setup(moveFn: ((dt: number) -> ())?)
 
 	print("ObbyGameLogic: Setup complete")
 end
-
--- ── RunService heartbeat for moving platforms ───────────────────────────────
-
-RunService.Heartbeat:Connect(function(_dt: number)
-	if movePlatformsFn then
-		(movePlatformsFn :: (dt: number) -> ())(_dt)
-	end
-end)
 
 return ObbyGameLogic

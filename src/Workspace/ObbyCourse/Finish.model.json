@@ -1,0 +1,70 @@
+{
+  "ClassName": "Folder",
+  "Children": [
+    {
+      "Name": "FinishPlatform",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [20, 2, 20],
+        "CFrame": [90, 28, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 0.843, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": []
+    },
+    {
+      "Name": "FinishPillar1",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [0.5, 10, 0.5],
+        "CFrame": [80, 33, -9, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 0.843, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": []
+    },
+    {
+      "Name": "FinishPillar2",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [0.5, 10, 0.5],
+        "CFrame": [100, 33, -9, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 0.843, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": []
+    },
+    {
+      "Name": "FinishPillar3",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [0.5, 10, 0.5],
+        "CFrame": [80, 33, 9, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 0.843, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": []
+    },
+    {
+      "Name": "FinishPillar4",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [0.5, 10, 0.5],
+        "CFrame": [100, 33, 9, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 0.843, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": []
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "ClassName": "Folder",
+  "Children": [
+    {
+      "Name": "Crumble1",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [4, 1, 4],
+        "CFrame": [35, 26, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 0, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "CrumbleScript",
+          "ClassName": "Script",
+          "Properties": {
+            "Source": "local part = script.Parent\nlocal touched = false\npart.Touched:Connect(function(hit)\n    if touched then return end\n    if hit.Parent:FindFirstChild(\"Humanoid\") then\n        touched = true\n        task.wait(1.5)\n        part.BrickColor = BrickColor.Red()\n        part.Transparency = 0.5\n        task.wait(0.5)\n        part.Anchored = false\n        game:GetService(\"Debris\"):AddItem(part, 3)\n    end\nend)\n"
+          },
+          "Children": []
+        }
+      ]
+    },
+    {
+      "Name": "Crumble2",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [4, 1, 4],
+        "CFrame": [40, 26, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 0, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "CrumbleScript",
+          "ClassName": "Script",
+          "Properties": {
+            "Source": "local part = script.Parent\nlocal touched = false\npart.Touched:Connect(function(hit)\n    if touched then return end\n    if hit.Parent:FindFirstChild(\"Humanoid\") then\n        touched = true\n        task.wait(1.5)\n        part.BrickColor = BrickColor.Red()\n        part.Transparency = 0.5\n        task.wait(0.5)\n        part.Anchored = false\n        game:GetService(\"Debris\"):AddItem(part, 3)\n    end\nend)\n"
+          },
+          "Children": []
+        }
+      ]
+    },
+    {
+      "Name": "Crumble3",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [4, 1, 4],
+        "CFrame": [45, 26, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 0, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "CrumbleScript",
+          "ClassName": "Script",
+          "Properties": {
+            "Source": "local part = script.Parent\nlocal touched = false\npart.Touched:Connect(function(hit)\n    if touched then return end\n    if hit.Parent:FindFirstChild(\"Humanoid\") then\n        touched = true\n        task.wait(1.5)\n        part.BrickColor = BrickColor.Red()\n        part.Transparency = 0.5\n        task.wait(0.5)\n        part.Anchored = false\n        game:GetService(\"Debris\"):AddItem(part, 3)\n    end\nend)\n"
+          },
+          "Children": []
+        }
+      ]
+    },
+    {
+      "Name": "Crumble4",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [4, 1, 4],
+        "CFrame": [50, 26, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 0, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "CrumbleScript",
+          "ClassName": "Script",
+          "Properties": {
+            "Source": "local part = script.Parent\nlocal touched = false\npart.Touched:Connect(function(hit)\n    if touched then return end\n    if hit.Parent:FindFirstChild(\"Humanoid\") then\n        touched = true\n        task.wait(1.5)\n        part.BrickColor = BrickColor.Red()\n        part.Transparency = 0.5\n        task.wait(0.5)\n        part.Anchored = false\n        game:GetService(\"Debris\"):AddItem(part, 3)\n    end\nend)\n"
+          },
+          "Children": []
+        }
+      ]
+    },
+    {
+      "Name": "Crumble5",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [4, 1, 4],
+        "CFrame": [55, 26, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 0, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "CrumbleScript",
+          "ClassName": "Script",
+          "Properties": {
+            "Source": "local part = script.Parent\nlocal touched = false\npart.Touched:Connect(function(hit)\n    if touched then return end\n    if hit.Parent:FindFirstChild(\"Humanoid\") then\n        touched = true\n        task.wait(1.5)\n        part.BrickColor = BrickColor.Red()\n        part.Transparency = 0.5\n        task.wait(0.5)\n        part.Anchored = false\n        game:GetService(\"Debris\"):AddItem(part, 3)\n    end\nend)\n"
+          },
+          "Children": []
+        }
+      ]
+    },
+    {
+      "Name": "Crumble6",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [4, 1, 4],
+        "CFrame": [60, 26, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 0, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "CrumbleScript",
+          "ClassName": "Script",
+          "Properties": {
+            "Source": "local part = script.Parent\nlocal touched = false\npart.Touched:Connect(function(hit)\n    if touched then return end\n    if hit.Parent:FindFirstChild(\"Humanoid\") then\n        touched = true\n        task.wait(1.5)\n        part.BrickColor = BrickColor.Red()\n        part.Transparency = 0.5\n        task.wait(0.5)\n        part.Anchored = false\n        game:GetService(\"Debris\"):AddItem(part, 3)\n    end\nend)\n"
+          },
+          "Children": []
+        }
+      ]
+    },
+    {
+      "Name": "Crumble7",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [4, 1, 4],
+        "CFrame": [65, 26, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 0, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "CrumbleScript",
+          "ClassName": "Script",
+          "Properties": {
+            "Source": "local part = script.Parent\nlocal touched = false\npart.Touched:Connect(function(hit)\n    if touched then return end\n    if hit.Parent:FindFirstChild(\"Humanoid\") then\n        touched = true\n        task.wait(1.5)\n        part.BrickColor = BrickColor.Red()\n        part.Transparency = 0.5\n        task.wait(0.5)\n        part.Anchored = false\n        game:GetService(\"Debris\"):AddItem(part, 3)\n    end\nend)\n"
+          },
+          "Children": []
+        }
+      ]
+    },
+    {
+      "Name": "Crumble8",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [4, 1, 4],
+        "CFrame": [70, 26, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 0, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "CrumbleScript",
+          "ClassName": "Script",
+          "Properties": {
+            "Source": "local part = script.Parent\nlocal touched = false\npart.Touched:Connect(function(hit)\n    if touched then return end\n    if hit.Parent:FindFirstChild(\"Humanoid\") then\n        touched = true\n        task.wait(1.5)\n        part.BrickColor = BrickColor.Red()\n        part.Transparency = 0.5\n        task.wait(0.5)\n        part.Anchored = false\n        game:GetService(\"Debris\"):AddItem(part, 3)\n    end\nend)\n"
+          },
+          "Children": []
+        }
+      ]
+    },
+    {
+      "Name": "Crumble9",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [4, 1, 4],
+        "CFrame": [75, 26, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 0, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "CrumbleScript",
+          "ClassName": "Script",
+          "Properties": {
+            "Source": "local part = script.Parent\nlocal touched = false\npart.Touched:Connect(function(hit)\n    if touched then return end\n    if hit.Parent:FindFirstChild(\"Humanoid\") then\n        touched = true\n        task.wait(1.5)\n        part.BrickColor = BrickColor.Red()\n        part.Transparency = 0.5\n        task.wait(0.5)\n        part.Anchored = false\n        game:GetService(\"Debris\"):AddItem(part, 3)\n    end\nend)\n"
+          },
+          "Children": []
+        }
+      ]
+    },
+    {
+      "Name": "Crumble10",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [4, 1, 4],
+        "CFrame": [80, 26, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 0, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "CrumbleScript",
+          "ClassName": "Script",
+          "Properties": {
+            "Source": "local part = script.Parent\nlocal touched = false\npart.Touched:Connect(function(hit)\n    if touched then return end\n    if hit.Parent:FindFirstChild(\"Humanoid\") then\n        touched = true\n        task.wait(1.5)\n        part.BrickColor = BrickColor.Red()\n        part.Transparency = 0.5\n        task.wait(0.5)\n        part.Anchored = false\n        game:GetService(\"Debris\"):AddItem(part, 3)\n    end\nend)\n"
+          },
+          "Children": []
+        }
+      ]
+    }
+  ]
+}

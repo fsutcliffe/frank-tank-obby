@@ -1,0 +1,71 @@
+{
+  "ClassName": "Folder",
+  "Children": [
+    {
+      "Name": "Moving1",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [5, 1, 4],
+        "CFrame": [-26, 18, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 0.6, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": false,
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "MovementScript",
+          "ClassName": "Script",
+          "Properties": {
+            "Source": "local part = script.Parent\nlocal startZ = part.Position.Z\nlocal speed = 3\nwhile task.wait(0.03) do\n    local z = startZ + math.sin(tick() * speed) * 6\n    part.Position = Vector3.new(part.Position.X, part.Position.Y, z)\nend\n"
+          },
+          "Children": []
+        }
+      ]
+    },
+    {
+      "Name": "Moving2",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [5, 1, 4],
+        "CFrame": [-14, 18, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 0.6, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": false,
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "MovementScript",
+          "ClassName": "Script",
+          "Properties": {
+            "Source": "local part = script.Parent\nlocal startZ = part.Position.Z\nlocal speed = 3\nwhile task.wait(0.03) do\n    local z = startZ + math.sin(tick() * speed) * 6\n    part.Position = Vector3.new(part.Position.X, part.Position.Y, z)\nend\n"
+          },
+          "Children": []
+        }
+      ]
+    },
+    {
+      "Name": "Moving3",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [5, 1, 4],
+        "CFrame": [-2, 18, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 0.6, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": false,
+        "CanCollide": true
+      },
+      "Children": [
+        {
+          "Name": "MovementScript",
+          "ClassName": "Script",
+          "Properties": {
+            "Source": "local part = script.Parent\nlocal startZ = part.Position.Z\nlocal speed = 3\nwhile task.wait(0.03) do\n    local z = startZ + math.sin(tick() * speed) * 6\n    part.Position = Vector3.new(part.Position.X, part.Position.Y, z)\nend\n"
+          },
+          "Children": []
+        }
+      ]
+    }
+  ]
+}

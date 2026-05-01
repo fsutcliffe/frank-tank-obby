@@ -1,0 +1,14 @@
+{
+  "ClassName": "Part",
+  "Properties": {
+    "Name": "DeathZone",
+    "Size": [500, 1, 200],
+    "CFrame": [0, -15, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+    "Color": [1, 0, 0],
+    "Material": "SmoothPlastic",
+    "Anchored": true,
+    "CanCollide": false,
+    "Transparency": 1
+  },
+  "Children": []
+}

@@ -1,0 +1,13 @@
+{
+  "ClassName": "Part",
+  "Properties": {
+    "Name": "StartPlatform",
+    "Size": [24, 2, 20],
+    "CFrame": [-70, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+    "Color": [0.196, 0.784, 0.392],
+    "Material": "SmoothPlastic",
+    "Anchored": true,
+    "CanCollide": true
+  },
+  "Children": []
+}

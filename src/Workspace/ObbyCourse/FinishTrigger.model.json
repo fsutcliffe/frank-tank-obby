@@ -1,0 +1,14 @@
+{
+  "ClassName": "Part",
+  "Properties": {
+    "Name": "FinishTrigger",
+    "Size": [20, 0.5, 20],
+    "CFrame": [90, 29, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+    "Color": [1, 0.843, 0],
+    "Material": "Neon",
+    "Anchored": true,
+    "CanCollide": true,
+    "Transparency": 0.3
+  },
+  "Children": []
+}

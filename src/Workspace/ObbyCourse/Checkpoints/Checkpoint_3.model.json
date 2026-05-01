@@ -1,0 +1,14 @@
+{
+  "ClassName": "Part",
+  "Properties": {
+    "Name": "Checkpoint_3",
+    "Size": [10, 0.5, 10],
+    "CFrame": [30, 24.25, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+    "Color": [0, 1, 0.392],
+    "Material": "Neon",
+    "Anchored": true,
+    "CanCollide": false,
+    "Transparency": 0.7
+  },
+  "Children": []
+}

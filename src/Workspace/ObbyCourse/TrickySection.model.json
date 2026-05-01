@@ -1,0 +1,70 @@
+{
+  "ClassName": "Folder",
+  "Children": [
+    {
+      "Name": "Beam1",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [1, 0.5, 10],
+        "CFrame": [-10, 20, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 1, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": []
+    },
+    {
+      "Name": "Beam2",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [1, 0.5, 10],
+        "CFrame": [0, 20, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 1, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": []
+    },
+    {
+      "Name": "Beam3",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [1, 0.5, 10],
+        "CFrame": [10, 20, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 1, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": []
+    },
+    {
+      "Name": "Landing1",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [4, 1, 4],
+        "CFrame": [20, 22, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 1, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": []
+    },
+    {
+      "Name": "Landing2",
+      "ClassName": "Part",
+      "Properties": {
+        "Size": [4, 1, 4],
+        "CFrame": [30, 24, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "Color": [1, 1, 0],
+        "Material": "SmoothPlastic",
+        "Anchored": true,
+        "CanCollide": true
+      },
+      "Children": []
+    }
+  ]
+}
