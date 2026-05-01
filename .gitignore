@@ -1,0 +1,25 @@
+# Node modules (if using any JS tooling)
+node_modules/
+
+# Roblox build artifacts
+*.rbxlx
+*.rbxl
+*.rbxmx
+*.rbxm
+
+# Rojo build output
+build/
+out/
+
+# Wally package downloads
+Packages/
+_server.rbxm
+
+# IDE / OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Selene / StyLua caches
+.selene_cache/

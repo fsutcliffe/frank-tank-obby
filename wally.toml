@@ -1,0 +1,8 @@
+[package]
+name = "henderson/roblox-reference"
+version = "0.1.0"
+description = "Reference Roblox project for Henderson bridge"
+registry = "https://github.com/UpliftGames/wally-index"
+
+[dependencies]
+LunePromise = "lune/promise@4.0.0"
